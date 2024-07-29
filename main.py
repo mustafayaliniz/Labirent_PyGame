@@ -23,8 +23,7 @@ class Main:
 
         self.player_image = pygame.image.load('images/monkey.bmp')
         self.banana_image = pygame.image.load('images/banana.bmp')
-        self.moving_right = False
-        self.moving_left = False
+        
 
     def random_yer(self):
         while True:
